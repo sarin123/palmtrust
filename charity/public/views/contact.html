@@ -1,0 +1,38 @@
+<div class="welcome contact" id="contact">
+    <div class="container">
+        <h3 class="title">Contact Us</h3>
+
+        <div class="contact-row">
+            <div class="col-md-6 contact-left">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2651867251907!2d77.62617591418734!3d13.018777390824908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae171f3c91d619%3A0x614aa8769d404d1b!2s244%2C+2nd+Cross+Rd%2C+1st+Block%2C+HBR+Layout+2nd+Block%2C+1st+Stage%2C+Kacharakanahalli%2C+Bengaluru%2C+Karnataka+560084!5e0!3m2!1sen!2sin!4v1469862266737" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6 contact-right">
+                <b><font color="#CC3300">Head Office:</font><br>
+                </b>
+                <div class="address-left">
+                    <P>Palm Charitable trust</P>
+                    <p> # 244, I STAGE, 2ndBLOCK, HBR LAYOUT
+                        Bangalore, 560043 <br> KA, India. </p>
+                </div>
+                <div class="address-right">
+                    <p>Call us :  +91 9845599002</p>
+                    <p>E-mail : <a href="mailto:syedafro@yahoo.com">syedafro@yahoo.com</a></p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="contact-form">
+                    <form method="post">
+                        <input type="text" placeholder="Name" ng-model="contact.name" required="">
+                        <input class="email" type="text" placeholder="Email" ng-model="contact.email" required="">
+                        <input class="phone" type="text" placeholder="Phone" ng-model="contact.phone" required="">
+                        <textarea name="Message" placeholder="Message" ng-model="contact.message" required=""></textarea>
+                        <input type="submit" value="SUBMIT"  ng-click="submitData()">
+                    </form>
+                </div>
+                <div style="font-size: 21px;color: white;smargin-top: 4%;">
+                    {{successMessage}}
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
